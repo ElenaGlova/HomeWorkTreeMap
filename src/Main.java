@@ -10,7 +10,7 @@ public class Main {
                 new Person("Sergey", "Luchev-Vetlitskiy", 13),
                 new Person("Ivan", "Zhvanetskiy", 13)
         ));
-        Collections.sort(notables);
+        Collections.sort(notables, new ComparePerson());
         System.out.println(notables);
     }
 }
